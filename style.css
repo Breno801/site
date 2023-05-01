@@ -27,7 +27,7 @@ P{
     border : solid  2px black } 
 
 a{
-    color: rgb(250, 228, 228);
+    color: rgb(129,129,129);
     font-style: oblique;
     margin: 50px 43px 100px 55px;
     border-style: outset;
@@ -38,5 +38,13 @@ a{
 font-size: 26px;
    }
    div{background-color: rgb(0, 0, 0);}
+
+  .imagensilustrativas{
+    background-color: rgb(129, 129, 129);
+    padding: 3px 3px;
+    border : solid 5px rgb( 129,129,129)
+    
+  }
+
 
    
