@@ -14,7 +14,7 @@ margin: 0px 40px 90px 40px;
 padding: 10px 4px 10px 4px;
 border : solid  2px black}
 
- h2{
+ .subtitulo{
 
 color: rgba(#0000);background-color: rgb(129, 129, 129);
 margin: 40px 40px 1px 40px;
@@ -36,16 +36,6 @@ a{
     margin: 50px 43px 100px 55px;
     border-style: outset;
     border-width: 2px;}
-
-  h3{
-
-font-size: 26px;
-background-color: rgb( 129,129,129);
-margin: 90px 40px 1px 40px;
-padding: 10px 4px 10px 4px;
-border : solid  2px black}
-
-
   
   
 
