@@ -5,7 +5,7 @@ html{ background-color:black}
  /* img{
     margin: 30px 122px 30px 132px;
     padding: 0px 10px 0px 30px} */
-    img { margin: 40px; }
+  img { margin: 40px; }
 
  h1{
 
@@ -19,23 +19,26 @@ border : solid  2px black}
 color: rgba(#0000);background-color: rgb(129, 129, 129);
 margin: 40px 40px 1px 40px;
 padding: 10px 30px 1px 30px;
-border : solid  2px black}
+border : solid  2px black;
+text-align: center}
 
-P{ 
-
+.paragrafo{ 
     box-sizing: border-box;
     color: rgba(#0000);background-color: rgb(129, 129, 129);
     margin:1px 40px 1px 40px;
     padding: 20px 30px 30px 20px;
-    border : solid  2px black;} 
+    border : solid  2px black;
+  text-align: justify;} 
 
-a{
+
+.capitulos-link{
 
     color: rgb(129,129,129);
     font-style: oblique;
     margin: 50px 43px 100px 55px;
     border-style: outset;
-    border-width: 2px;}
+    border-width: 2px;
+  text-decoration: none;}
   
   
 
@@ -44,6 +47,3 @@ a{
     background-color: rgb(129, 129, 129);
     padding: 3px 3px;
     border : solid 5px rgb( 129,129,129);}
-
-
-   
