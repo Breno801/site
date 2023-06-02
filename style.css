@@ -1,49 +1,68 @@
 
+@font-face {
+  font-family: 'fonter lir' Arial, Helvetica, sans-serif;
+  src: url(./fonts/American\ Captain.ttf) 
+  url(./fonts/American\ Captain.otf);
+}
 
 html{ background-color:black}
 
- /* img{
-    margin: 30px 122px 30px 132px;
-    padding: 0px 10px 0px 30px} */
-  img { margin: 40px; }
+
+.img-titulo {  margin:1px 40px 1px 40px;
+  padding: 20px 30px 30px 20px;
+  border : solid  2px black; }
+
 
  h1{
 
 color: #000000; background-color: rgb(129, 129, 129); font-style:initial ;    
 margin: 0px 40px 90px 40px;
 padding: 10px 4px 10px 4px;
-border : solid  2px black}
+border : outset  2px black;
+font-family: capta
+}
 
  .subtitulo{
-
+  
+font-family: 'American\ captain', 'Courier New', Courier, monospace;
 color: rgba(#0000);background-color: rgb(129, 129, 129);
 margin: 40px 40px 1px 40px;
 padding: 10px 30px 1px 30px;
-border : solid  2px black;
+border : solid  2px rgb(129, 129, 129);
 text-align: center}
 
 .paragrafo{ 
+
     box-sizing: border-box;
     color: rgba(#0000);background-color: rgb(129, 129, 129);
     margin:1px 40px 1px 40px;
     padding: 20px 30px 30px 20px;
     border : solid  2px black;
-  text-align: justify;} 
+   text-align: justify;
+   font-family:'fonter lir' 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"
+   
+} 
 
 
 .capitulos-link{
 
-    color: rgb(129,129,129);
-    font-style: oblique;
-    margin: 50px 43px 100px 55px;
-    border-style: outset;
-    border-width: 2px;
+  color: black;
+  background-color: rgb( 129,129,129);
+  font-style: oblique;
+  margin: 50px 43px 100px 55px;
+  border-style: solid 2px rgb(129,129,129) ; 
   text-decoration: none;}
+a:hover{color:black; background-color: rgb(255,255,255);}
+a:visited{color: rgb(55, 55, 55);}
+a:active{background-color: black; color: rgb( 129,129,129); }
   
   
 
-  .imagensilustrativas{
+  .img-subtitulo{
 
     background-color: rgb(129, 129, 129);
     padding: 3px 3px;
-    border : solid 5px rgb( 129,129,129);}
+    border : solid 5px rgb( 129,129,129);
+    margin: 40px;}
+
+    
