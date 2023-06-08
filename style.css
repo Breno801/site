@@ -1,16 +1,15 @@
 
-@font-face {
-  font-family: 'fonter lir' Arial, Helvetica, sans-serif;
-  src: url(./fonts/American\ Captain.ttf) 
-  url(./fonts/American\ Captain.otf);
-}
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,300;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300;1,500&display=swap');
 
 html{ background-color:black}
 
 
-.img-titulo {  margin:1px 40px 1px 40px;
-  padding: 20px 30px 30px 20px;
-  border : solid  2px black; }
+.img-titulo {  
+  border : solid  2px black;
+  width: 882px;
+  height: 428px;
+  margin-left: 40px;
+ }
 
 
  h1{
@@ -22,9 +21,9 @@ border : outset  2px black;
 font-family: capta
 }
 
- .subtitulo{
-  
-font-family: 'American\ captain', 'Courier New', Courier, monospace;
+ .subtitulo{ 
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
 color: rgba(#0000);background-color: rgb(129, 129, 129);
 margin: 40px 40px 1px 40px;
 padding: 10px 30px 1px 30px;
@@ -32,15 +31,16 @@ border : solid  2px rgb(129, 129, 129);
 text-align: center}
 
 .paragrafo{ 
-
-    box-sizing: border-box;
-    color: rgba(#0000);background-color: rgb(129, 129, 129);
-    margin:1px 40px 1px 40px;
-    padding: 20px 30px 30px 20px;
-    border : solid  2px black;
-   text-align: justify;
-   font-family:'fonter lir' 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"
-   
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  box-sizing: border-box;
+  color: rgba(#0000);background-color: rgb(129, 129, 129);
+  margin:1px 40px 0px 40px;
+  padding: 20px 30px 30px 20px;
+  border : solid  2px black;
+  text-align: justify;
+  
 } 
 
 
@@ -53,16 +53,15 @@ text-align: center}
   border-style: solid 2px rgb(129,129,129) ; 
   text-decoration: none;}
 a:hover{color:black; background-color: rgb(255,255,255);}
-a:visited{color: rgb(55, 55, 55);}
+a:visited{color: rgb(0, 0, 0);}
 a:active{background-color: black; color: rgb( 129,129,129); }
   
   
 
   .img-subtitulo{
-
-    background-color: rgb(129, 129, 129);
-    padding: 3px 3px;
-    border : solid 5px rgb( 129,129,129);
-    margin: 40px;}
+    height: 582px;
+    width: 850px;
+    
+  }
 
     
