@@ -1,7 +1,14 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,300;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300;1,500&display=swap');
 
-html{ background-color:black}
+  *{
+    margin: 0%;
+  
+  }
+html{ background-color:black;
+  padding-top: 55px;
+  
+}
 
 
 .img-titulo {  
@@ -9,7 +16,22 @@ html{ background-color:black}
   width: 882px;
   height: 428px;
   margin-left: 40px;
+  margin-top: 80px;
  }
+
+ header{
+  background-color: rgb( 129,129,129);
+  font-size: 25px;
+  position:fixed ;
+  width: 100%;
+  padding: 20px;
+  top:0;
+  border: solid 5px black;
+ }
+
+
+.icons-menu li{ display: inline-block;
+  margin-right: 12%; }
 
 
  h1{
