@@ -8,26 +8,27 @@
 html{ background-color:black;
   padding-top: 55px;}
 
+
+
   main{
-    width: 900px
+    width: 900px;
+    margin: 0
     auto;
     min-width: 320px;
-    max-width: 900px;
+    max-width: 1300px;
   }
 
 
 .img-titulo {  
   border : solid  2px black;
-  width: 882px;
-  height: 428px;
-  margin-left: 40px;
-  margin-top: 80px;
-  width: 100%;
+min-width: 300px;
+margin-top: 80px;
+text-align: center;
  }
 
  header{
   background-color: rgb( 129,129,129);
-  font-size: 15px;
+  font-size: 10px;
   position:fixed ;
   width: 100%;
   padding: 15px;
@@ -36,9 +37,7 @@ html{ background-color:black;
  }
 
 
-.icons-menu li{ 
-  display: inline-block;
-  margin-right: 10%; }
+nav{float: right;}
 
 
  h1{
