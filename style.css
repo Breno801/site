@@ -15,7 +15,7 @@ html{ background-color:black;
     margin: 0
     auto;
     min-width: 320px;
-    max-width: 1300px;
+    max-width: 1000px;
   }
 
 
@@ -31,13 +31,14 @@ text-align: center;
   font-size: 10px;
   position:fixed ;
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   top:0;
   border: solid 5px black;
  }
 
 
-nav{float: right;}
+nav{float:left;
+font-size: 15px;}
 
 
  h1{
@@ -74,6 +75,7 @@ text-align: center}
 
 .capitulos-link{
 
+font-size: 25px;
   color: black;
   background-color: rgb( 129,129,129);
   font-style: oblique;
