@@ -1,8 +1,8 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,300;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300;1,500&display=swap');
 
-  *{
-    margin: 0%;
+  *{padding: 0;
+    margin: 0;
   
   }
 html{ background-color:black;
@@ -14,21 +14,19 @@ height: 1200px;}
  
 
   main{
-    width: 900px;
     margin: 0 auto;
-    min-width: 320px;
+    min-width: 400px;
     max-width: 900px;
   }
 
 
 .img-titulo {  
 border : solid  2px black;
-min-width: 300px;
 width: 100%
 ;
  }
 
- header{
+ .cabeçalho{
   background-color: rgb( 129,129,129);
   font-size: 10px;
   position:fixed ;
@@ -90,11 +88,21 @@ a:active{background-color: black; color: rgb( 129,129,129); }
   
   
 
-  .img-subtitulo{
-    height: 582px;
-    width: 850px;
-    width: 100%;
-    
-  }
-
-    
+  .img-subtitulo
+  {width: 100%;}
+ 
+    @media (max-width:600px){
+      *{margin: 0;}
+      .cabeçalho{background-color: rgb( 129,129,129);}
+    .main{
+      width: 576px
+    }
+    .img-titulo{width: 450px;
+    height: 263px;
+    margin: auto;
+    display: block;}
+    .paragrafo{width: 500px;
+      text-align: center;
+      display: block;}
+    .subtitulo{width: 440px;}
+    }
