@@ -92,17 +92,4 @@ a:active{background-color: black; color: rgb( 129,129,129); }
   {width: 100%;}
  
     @media (max-width:600px){
-      *{margin: 0;}
-      .cabeçalho{background-color: rgb( 129,129,129);}
-    .main{
-      width: 576px
-    }
-    .img-titulo{width: 450px;
-    height: 263px;
-    margin: auto;
-    display: block;}
-    .paragrafo{width: 500px;
-      text-align: center;
-      display: block;}
-    .subtitulo{width: 440px;}
-    }
+      *{margin: 0;}}
