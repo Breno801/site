@@ -98,13 +98,11 @@ margin-top: 10px;}
  
     @media (max-width:600px){
       *{margin: 0;}
-    .main{width: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 0;
-    margin: auto;}
+    .main{width:576px;
+    text-align: center;}
   .paragrafo{
   display: block;
   text-align: justify;}
-    .img-subtitulo{float: left;}}
+    .img-subtitulo{float: left;
+    max-width: 100%;}
+    .img-titulo{max-width: 100%; } }
