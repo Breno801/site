@@ -5,29 +5,36 @@
     margin: 0;
   
   }
-html{ background-color:black;
-  padding-top: 55px;}
+html{ 
+  background-color:black;
+  padding-top: 55px;
+}
 
-body{padding-top: 67px; 
-height: 1200px;}
+body{
+  padding-top: 67px; 
+  height: 1200px;
+}
 
  
 
   main{
     margin: 0 auto;
     min-width: 400px;
-    max-width: 1200px;}
+    max-width: 1200px;
+  }
 
 
-.img-titulo {  
-border : solid  2px black;
-width: 100%;
-display: block;
-margin: auto;
+.img-titulo{  
+  margin: auto;
+  
+  display: block;
+  border : solid  2px black;
+  
 
  }
 
- .cabeçalho{
+ .cabeçalho
+ {
   background-color: rgb( 129,129,129);
   font-size: 10px;
   position:fixed ;
@@ -38,8 +45,10 @@ margin: auto;
  }
 
 
-nav{float:left;
-font-size: 15px;}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
 
 
  h1{
@@ -90,14 +99,30 @@ a:active{background-color: black; color: rgb( 129,129,129); }
   
 
   .img-subtitulo
-  {width: auto;
-    float: left;
+  {
+    width: 100%;
+    float: right;
   margin-right: 10px;
 margin-top: 10px;}
  
 
-@media (max-width: 576px)
+@media (max-width: 700px)
 {
 .img-subtitulo{float:none;
 width: 100%;}
+
+main{
+  margin: 0 auto;
+  min-width: 400px;
+  max-width: 600px;
 }
+
+
+}
+
+
+
+.fa-bars { font-size: 50px;}
+.fa-bookmark{ font-size: 50px;}
+.fa-bookmark :hover{ color: white; }
+.fa-book{ font-size: 50px; }
